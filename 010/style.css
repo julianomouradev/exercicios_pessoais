@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(232, 236, 247);
+}
+
+header {
+    padding: 30px 20px 10px 20px;
+    background-color: rgb(44, 84, 202);
+    color: white;
+    border-bottom: 3px solid rgb(250, 197, 64);
+    border-radius: 0px 0px 12px 12px;
+    
+}
+
+#capa {
+    padding: 30px auto 20px auto;
+    text-align: center;
+}
+
+.links  {
+    text-align: center;
+    margin: 15px auto 5px auto;
+    padding: 10px 3px 5px;
+}

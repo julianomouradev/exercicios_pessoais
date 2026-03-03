@@ -1,0 +1,76 @@
+/* estilos.css */
+
+:root {
+  --marfim: #F7F3EB;
+  --madeira: #6A3E28;
+  --ouro: #C9A14A;
+  --azul-vitrais: #4B7CB0;
+  --roxo-suave: #735D91;
+  --cinza-rosado: #D9C7BC;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--marfim);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--madeira);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  color: var(--ouro);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--azul-vitrais);
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: var(--cinza-rosado);
+  border-left: 6px solid var(--madeira);
+  border-radius: 8px;
+}
+
+.destaque {
+  background-color: var(--ouro);
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--madeira);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
