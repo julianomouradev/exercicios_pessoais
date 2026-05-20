@@ -93,7 +93,7 @@ main {
 
 .hero {
     position: relative;
-    height: 90vh;
+    height: 70vh;
 
     background-image: url(imagens/saojoaobosco.jpg);
     background-size: cover;
@@ -107,6 +107,7 @@ main {
     color: white;
 
     border-top: 0px;
+    margin-bottom: 0px;
 }
 
 .overlay {
