@@ -8,6 +8,10 @@
     font-family: "Gelasio", serif;
 }
 
+body {
+    font-size: 1.2em;
+}
+
 header {
     background-color: #024059;
 }
