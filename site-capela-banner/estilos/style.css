@@ -11,8 +11,7 @@
 
 body {
     font-size: 1.1em;
-    font-family: "Gelasio", serif;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -156,19 +155,22 @@ section {
     background-color: rgba(211, 211, 211, 0.829);
     padding: 7px;
     border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
 }
 
 #botao-acessar {
     margin: 10px 0px 10px 0px ;
-    padding: 6px;
+    padding: 7px;
     background-color: #dab140;
     color: white;
     text-decoration: none;
     border-radius: 15px;
 }
 
-.div-p-contato {
-    padding: 10px 0px 10px 0px;
+#botao-acessar:hover {
+   text-decoration: underline;
+   padding: 9px;
+   transition-duration: .3s;
 }
 
 .div-p-contato > p {
@@ -181,4 +183,83 @@ section {
     color: black;
     border-radius: 15px;
     text-decoration: none;
+}
+
+#a-instagram-capela:hover {
+    background-color: #dab140;
+    color: white;
+    padding: 8px 47px 8px 47px;
+    transition-duration: .3s;
+}
+
+#address-loc > a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+#address-loc > a:hover {
+    text-decoration: underline;
+    transition-duration: .2s;
+}
+
+#address-loc {
+    border-left: 3px solid #dab140;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+nav#loc-links {
+    background-color: #023a4e;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+}
+
+#iframe-localizacao {
+    display: block;
+    width: 100%;
+    height: 55vh;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+}
+
+footer {
+    background-color: #023a4e;
+}
+
+.p-footer {
+    font-size: 0.8em;
+    color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+#div-brasoes-footer {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: auto;  
+} 
+
+#credito-juliano {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lightgray;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#ig {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+#ig:hover {
+    color: #f5c338;
+    transition-duration: .3s;
+    text-decoration: underline;
 }
