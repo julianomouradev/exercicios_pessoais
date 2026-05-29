@@ -69,6 +69,23 @@ header {
     transition-duration: .6s;
 }
 
+span#burguer {
+    background-color: #002b3b;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    color: #c59c2d;
+}
+
+nav {
+    display: none;
+}
+
 .nav-header {
     background-color: #023a4e;
     padding: 10px;
