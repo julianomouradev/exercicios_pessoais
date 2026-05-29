@@ -43,7 +43,7 @@ header {
 
 .titulo h1 {
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.05em;
     margin-bottom: 5px;
 }
 
@@ -54,7 +54,7 @@ header {
 
 .titulo p {
     margin: 2px 0 0;
-    font-size: 1.1em;
+    font-size: 1.0em;
     color: #ccc;
     opacity: 0.9;
 }
@@ -72,6 +72,7 @@ header {
 }
 
 .nav-header > a {
+    font-size: 0.89em;
     color: white;
     text-decoration: none;
     padding-left: 5px;
@@ -218,6 +219,18 @@ nav#loc-links {
     border-radius: 20px 20px 0px 0px;
     text-align: center;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+}
+
+#loc-links > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 7px 0px 7px;
+}
+
+#loc-links > a:hover {
+    transition-duration: .7s;
+    color: #f5c338;
+    text-decoration: underline;
 }
 
 #iframe-localizacao {
