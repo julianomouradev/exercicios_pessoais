@@ -98,7 +98,7 @@ main {
 
 .hero {
     position: relative;
-    height: 85vh;
+    height: 70vh;
 
     background-image: url('../imagens/saojoaobosco.jpg');
     background-size: cover;
