@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* #dab140
+#024059
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #dab140; 
+    background-image: linear-gradient(to bottom, #024059, #01648b, transparent);
+    padding: 40px 0px 40px 0px;  
+    text-align: center;
+
+}
