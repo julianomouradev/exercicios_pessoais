@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+    @media screen and (min-width: 450px) and (max-width: 768px) {
+        body {
+            font-size: 1.3em;
+        }
+
+        #a-instagram-capela {
+            padding-left: 57px;
+            padding-right: 56px;
+        }
+
+        #a-instagram-capela:hover {
+            padding: 8px 59px 8px 59px;
+        }
+
+        
+    }
+
     @media screen and (min-width: 769px) {
     
         body {

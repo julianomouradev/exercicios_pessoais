@@ -93,7 +93,7 @@ header {
 
 main {
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .hero {
@@ -183,7 +183,7 @@ section {
 }
 
 #a-instagram-capela {
-    padding: 6px 45px 6px 45px;
+    padding: 6px 50px 6px 50px;
     border: 1px solid #dab140;
     color: black;
     border-radius: 15px;
@@ -193,7 +193,7 @@ section {
 #a-instagram-capela:hover {
     background-color: #dab140;
     color: white;
-    padding: 8px 47px 8px 47px;
+    padding: 8px 52px 8px 52px;
     transition-duration: .3s;
 }
 
