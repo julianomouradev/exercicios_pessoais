@@ -60,7 +60,7 @@ section.login > h2 {
 }
 
 .form {
-    display: grid;
+    display: block;
     align-items: center;
     align-content: center;
 }
