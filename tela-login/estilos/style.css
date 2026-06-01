@@ -7,13 +7,14 @@
 }
 
 body {
-    font-size: 1.5em;
+    font-size: 1em;
     background-image: linear-gradient(to bottom,black,#04278a, #1b47c0);
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
+    font-size: 1.1em;
     background-color: black;
     text-align: center;
 }
@@ -21,21 +22,21 @@ header {
 header > h1 {
     text-align: center;
     color: white;
-    padding: 30px;
+    padding: 20px;
 }
 
 header > #div-nav {
-    padding-bottom: 25px;
+    padding-bottom: 23px;
 }
 
 header > #div-nav > nav > a {
     color: white;
     text-decoration: none;
     padding: 7px;
+    transition-duration: .4s;
 }
 
 header > #div-nav > nav > a:hover {
-    transition-duration: .4s;
     background-color: rgb(97, 94, 94);
     border-radius: 20px;
     text-decoration: underline;
@@ -48,16 +49,18 @@ section.login {
     margin-bottom: 40px;
     border-radius: 40px;
     background-color: white;
+    font-size: 1.2em;
 }
 
 section.login > h2 {
+    font-size: 1.8em;
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid black;
 }
 
 .form {
-    display: block;
+    display: grid;
     align-items: center;
     align-content: center;
 }
@@ -77,8 +80,9 @@ section.login > h2 {
 
 .btn-sub-res > input {
     background-color: white;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 form > #p-autent {
