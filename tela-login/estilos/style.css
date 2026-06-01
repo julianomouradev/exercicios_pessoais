@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1.5em;
+    background-image: linear-gradient(to bottom,black,#04278a, #1b47c0);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+header > #div-nav {
+    padding-bottom: 25px;
+}
+
+header > #div-nav > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+header > #div-nav > nav > a:hover {
+    transition-duration: .4s;
+    background-color: rgb(97, 94, 94);
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+section.login {
+    width: 90vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+section.login > h2 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.form {
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.form > input {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.btn-sub-res {
+    text-align: center;
+    margin: 40px;
+}
+
+.btn-sub-res > input {
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+form > #p-autent {
+    color: gray;
+    font-size: .6em;
+    padding: 10px;
+    text-align: center;
+}
+

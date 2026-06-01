@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Class</h1>
+        <div id="div-nav"> 
+            <nav>
+                <a href="#">Suporte</a>
+                <a href="#">Serviços</a>
+                <a href="#">Horários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <h2>Login</h2>
+
+            <form action="cadastro.php" class="form">
+                <label for="iemail"></label>
+                <input type="email" name="email" id="iemail" placeholder="E-mail">
+
+                <label for="isenha"></label>
+                <input type="password" name="senha" id="isenha" placeholder="Senha">
+
+                <div class="btn-sub-res">
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Limpar">
+                </div>
+                <p id="p-autent">Após o envio do formulário chegará um código de autenticação em seu e-mail!</p>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

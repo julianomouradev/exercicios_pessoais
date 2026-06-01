@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    
+    section.login {
+        max-width: 600px;
+    }
+
+}
