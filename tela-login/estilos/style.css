@@ -73,6 +73,11 @@ section.login > h2 {
     padding: 10px;
 }
 
+.form > input:hover {
+    transition: .3s;
+    background-color: lightgray;
+}
+
 .btn-sub-res {
     text-align: center;
     margin: 40px;
@@ -85,10 +90,18 @@ section.login > h2 {
     cursor: pointer;
 }
 
+.btn-sub-res > input:hover {
+    background-color: lightgray;
+}
+
 form > #p-autent {
     color: gray;
     font-size: .6em;
     padding: 10px;
     text-align: center;
+}
+
+form > #p-autent:hover {
+    color: black;
 }
 
