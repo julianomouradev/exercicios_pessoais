@@ -23,6 +23,11 @@ body {
     font-size: 1.3em;
 }
 
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
 /* SECTION */
 section {
     padding: 10px;
@@ -50,12 +55,16 @@ section {
 /* DIV IMG01 */
 #img01 {
     background-image: url('../imagens/saojoaobosco.jpg');
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #img-p > p {
-    padding: 170px 40px 180px 60px;
+    padding: 75px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     text-shadow: 0px 0px 5px black;
 }
@@ -68,18 +77,25 @@ section {
 
 
 /* SECTION CONTATO */
-#div-contato > p > a {
+#div-contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#div-contato > a {
     display: block;
     color: black;
     text-decoration: none;
-    margin: 30px;
+    margin-bottom: 20px;
     border: 1px solid #dab140;
     border-radius: 25px;
-    padding: 10px 100px 10px 100px;
     text-align: center;
+    padding: 10px;
+    flex-basis: 400px;
 }   
 
-#div-contato > p > a:hover {
+#div-contato > a:hover {
     background-color: #dab140;
     color: white;
     text-decoration: underline;
@@ -94,13 +110,12 @@ section {
 /* FOOTER */
 footer {
     display: flex;
-    align-content: center;
+    justify-content: center;
     background-color: #024059;
 }
 
 .footer-img {
-  margin: auto;
-  padding: 10px;
+    padding: 15px;
 }
 
 .footer-img > img {
