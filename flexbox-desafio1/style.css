@@ -87,5 +87,11 @@ article > div.text > h2 {
 article > div.imagem {
     display: block;
     margin: auto;
+
+}
+
+article > div.imagem > img {
+    width: 100%;
+    height: auto;
 }
 
