@@ -57,13 +57,24 @@
         .hero {
             
             width: 100vw;
-        }
+        } 
 
         section {
             padding-top: 60px;
             padding-bottom: 60px;
             max-width: 950px;
             margin: auto;
+            
+        }
+
+        .hero {
+            max-width: none;
+            width: 100%;
+           
+        }
+
+        section.hero {
+            width: 100%;
         }
 
         #a-instagram-capela {
@@ -113,7 +124,7 @@
         }   
 
         .hero {
-            
+            flex: 1 1 100%;
             width: 100vw;
         }
 

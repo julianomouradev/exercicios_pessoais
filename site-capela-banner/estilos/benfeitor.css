@@ -14,17 +14,35 @@
 header {
     color: #dab140; 
     background-image: linear-gradient(to bottom, #024059, #01648b);
-    padding: 40px 0px 40px 0px;  
+    padding: 40px 0px 20px 0px;  
     text-align: center;
+}
+
+header > h1 {
+    margin-bottom: 25px;
+}
+
+header > a {
+    color: white;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 17px;
+    transition-duration: .3s;
+}
+
+header > a:hover {
+    background-color: #024059;
+    text-decoration: underline;
 }
 
 /* BODY */
 body {
-    font-size: 1.3em;
+    font-size: 1.4em;
+    line-height: 1.5em;
 }
 
 main {
-    max-width: 700px;
+    max-width: 950px;
     margin: auto;
 }
 
@@ -46,19 +64,21 @@ section {
 .img {
     height: 90vh;
     width: 100%;
+    max-width: none;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
 }
 
 
 /* DIV IMG01 */
 #img01 {
-    background-image: url('../imagens/saojoaobosco.jpg');
+    background-image: url('../imagens/fotocapela-angulomedio.webp');
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 #img-p > p {
@@ -68,13 +88,6 @@ section {
     color: white;
     text-shadow: 0px 0px 5px black;
 }
-
-
-/* DIV IMG02 */
-#img02 {
-    background-image: url('../imagens/cristocapela.jpg');
-}
-
 
 /* SECTION CONTATO */
 #div-contato {
@@ -92,7 +105,7 @@ section {
     border-radius: 25px;
     text-align: center;
     padding: 10px;
-    flex-basis: 400px;
+    flex-basis: 500px;
 }   
 
 #div-contato > a:hover {
@@ -100,7 +113,7 @@ section {
     color: white;
     text-decoration: underline;
     transition-duration: .3s;
-}
+} 
 
 #p-contato-kely > a {
     margin-top: 40px;

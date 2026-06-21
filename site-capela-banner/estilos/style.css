@@ -108,7 +108,7 @@ main {
     position: relative;
     height: 70vh;
 
-    background-image: url('../imagens/saojoaobosco.jpg');
+    background-image: url('../imagens/fotocapela-angulomedio.webp');
     background-size: cover;
     background-position: center;
 
@@ -116,12 +116,16 @@ main {
     align-items: center;
     justify-content: center;
 
+
     text-align: center;
     color: white;
 
     border-top: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+
+    width: 100%;
+    margin: 0px;
 }
 
 .overlay {
@@ -156,18 +160,18 @@ section {
 }
 
 
-#sobre {
+.sobre {
     border-top: 0px;
 }
 
 
 /* SEC. HORARIOS */
-#ul-horarios {
+.ul-horarios {
     margin: 15px 0px 15px 10px;
     list-style-position: inside;
 } 
 
-#ul-horarios > ul {
+.ul-horarios > ul {
     margin: 25px 0px 25px 0px ;
 }
 
@@ -236,7 +240,7 @@ section {
     margin-bottom: 20px;
 }
 
-nav#loc-links {
+nav.loc-links {
     background-color: #023a4e;
     padding: 10px;
     border-radius: 20px 20px 0px 0px;
@@ -244,13 +248,13 @@ nav#loc-links {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
 }
 
-#loc-links > a {
+.loc-links > a {
     color: white;
     text-decoration: none;
     padding: 0px 7px 0px 7px;
 }
 
-#loc-links > a:hover {
+.loc-links > a:hover {
     transition-duration: .7s;
     color: #f5c338;
     text-decoration: underline;
@@ -300,4 +304,4 @@ footer {
     color: #f5c338;
     transition-duration: .3s;
     text-decoration: underline;
-}
+} 
