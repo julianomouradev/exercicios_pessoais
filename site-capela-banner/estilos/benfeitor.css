@@ -93,14 +93,19 @@ section {
     
 }
 
+#img-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
 #img-p > p {
-    width: 75%;
-    margin: auto;
-    line-height: 1.3em;
-    text-align: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: white;
-    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    flex: 0 1 400px;
+    text-shadow: 0px 0px 3px black;
 }
 
 /* SECTION CONTATO */
