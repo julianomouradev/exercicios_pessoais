@@ -86,6 +86,7 @@ section {
 /* DIV IMG01 */
 #img01 {
     background-image: url('../imagens/fotocapela-angulomedio.webp');
+    background-position: center;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
