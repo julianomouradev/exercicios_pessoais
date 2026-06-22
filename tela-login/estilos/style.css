@@ -79,15 +79,23 @@ section.login > h2 {
 }
 
 .btn-sub-res {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 40px;
+    
+
 }
 
 .btn-sub-res > input {
     background-color: white;
     padding: 10px 30px;
+    margin-bottom: 10px;
     border-radius: 10px;
     cursor: pointer;
+    flex: 1 1 300px;
 }
 
 .btn-sub-res > input:hover {
