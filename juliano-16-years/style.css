@@ -41,7 +41,7 @@ main > h2 {
 
 main > section > p {
     line-height: 1.5em;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.61);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.164);
     text-indent: 10px;
     margin: 20px 0px;
 }
