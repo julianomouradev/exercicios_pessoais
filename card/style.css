@@ -79,13 +79,24 @@ main > section > h2 {
     text-align: center;
 }
 
+.div-produtos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+}
 
 /* CARD PRODUTOS */
-main > section > .card {
+.div-produtos > .card {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    margin: 10px 20px;
+    margin: 30px 20px;
+
+    width: 170px;
 
     border-radius: 30px;
     background-color: white;
@@ -94,7 +105,7 @@ main > section > .card {
 
 
 /* IMAGEM PRODUTO CARD */
-main > section > .card > .img-card {
+.div-produtos > .card > .img-card {
     display: block;
     width: 170px;
     height: 130px;
@@ -105,13 +116,13 @@ main > section > .card > .img-card {
 
 
 /* NOME DO PRODUTO */
-main > section > .card > .h3-card {
+.div-produtos > .card > .h3-card {
     margin: 8px;
 }
 
 
 /* PREÇO */
-main > section > .card > .p-card {
+.div-produtos > .card > .p-card {
     color: white;
     background-color: darkgreen;
     padding: 3px;
@@ -119,7 +130,7 @@ main > section > .card > .p-card {
 
 
 /* BTN COMPRAR */
-main > section > .card > .btn-comprar-card {
+.div-produtos > .card > .btn-comprar-card {
     color: green;
     font-weight: 500;
     text-decoration: none;
@@ -131,7 +142,7 @@ main > section > .card > .btn-comprar-card {
     transition-duration: .3s;
 }
 
-main > section > .card > .btn-comprar-card:hover {
+.div-produtos > .card > .btn-comprar-card:hover {
     background-color: darkgreen;
     color: white;
 }
