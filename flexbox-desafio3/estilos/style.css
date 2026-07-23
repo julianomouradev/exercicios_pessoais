@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo-font';
+    src: url('../fonts/raidercrusadersemistraight.ttf'), format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* CONFIGURACOES GERAIS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+/* CONFIG HEADER */
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: black;
+    color: white;
+}
+
+header > h1 {
+    font-family: 'titulo-font';
+    flex: 0 0 380px;
+    font-size: 2.5em;
+    padding: 10px 4px;
+}
+
+/* CONFIG NAV HEADER */
+header > nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+header > nav > a:hover {
+    background-color: red;
+    transition: background-color .3s;
+}
+
+
+
