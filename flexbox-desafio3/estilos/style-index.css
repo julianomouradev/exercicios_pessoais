@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'titulo-font';
+    src: url('../fonts/raidercrusadersemistraight.ttf'), format('truetype');
+}
+
+
+
+/* CONFIGURACOES GERAIS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* CONFIG HEADER */
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: black;
+    color: white;
+
+   
+}
+
+header > h1 {
+    font-family: 'titulo-font';
+    flex: 1 1 380px;
+    font-size: 2em;
+    padding: 10px 4px;
+
+}
+
+/* CONFIG NAV HEADER */
+header > nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+header > nav > a:hover {
+    background-color: red;
+    transition: background-color .3s;
+}
+
+
+/* BANNER PRINCIPAL */
+.banner-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    height: 90vh;
+
+    background-image: url('../imagens/porshe911.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+/* DIV CONTENT */
+.div-banner-principal {
+    text-align: center;
+}
+
+/* H2 */
+.div-banner-principal h2 {
+    color: white;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.603);
+    margin-bottom: 20px;
+}
+
+/* P */
+.div-banner-principal p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 0px 0px 2px black;
+    box-shadow: 2px 2px 4px black;
+
+    border-radius: 15px;
+
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+/* BOTAO */
+.div-banner-principal a {
+    text-decoration: none;
+    text-shadow: 0px 0px 4px black;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    padding: 10px;
+
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.div-banner-principal a:hover {
+    background-color: black;
+    color: red;
+    border: 2px solid darkred;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    background-color: black;
+
+    padding: 20px;
+}
+
+footer h3 {
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    margin: 10px 0px;
+}
+
+footer .a-footer {
+    text-decoration: none;
+}
+
+footer .a-footer:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+footer p {
+    color: white;
+    margin-top: 10px;
+}
+
+
+

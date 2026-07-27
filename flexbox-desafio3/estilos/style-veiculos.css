@@ -7,55 +7,40 @@
     src: url('../fonts/raidercrusadersemistraight.ttf'), format('truetype');
 }
 
-
-
-/* CONFIGURACOES GERAIS */
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 body {
     font-family: "Noto Sans", sans-serif;
 }
 
-/* CONFIG HEADER */
+/* HEADER */
 header {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
-    padding: 20px;
+    flex-flow: column nowrap;
 
     background-color: black;
-    color: white;
-
+    padding: 20px;
 }
 
 header > h1 {
     font-family: 'titulo-font';
-    flex: 1 1 380px;
     font-size: 2em;
     padding: 10px 4px;
-
+    color: white;
 }
 
-/* CONFIG NAV HEADER */
-header > nav {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-}
-
+/* NAV */
 header > nav > a {
     color: white;
     text-decoration: none;
     font-size: 1em;
     border-radius: 10px;
-    padding: 4px;
+    padding: 5px;
 }
 
 header > nav > a:hover {
@@ -63,9 +48,14 @@ header > nav > a:hover {
     transition: background-color .3s;
 }
 
-/* BANNER PRINCIPAL */
+
+/* SECTION VEICULOS */
+.veiculos-destaque {
+
+}
 
 
-
-
-
+/* CARD VEICULOS */
+article .veiculos {
+    
+}
