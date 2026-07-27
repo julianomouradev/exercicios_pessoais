@@ -17,6 +17,8 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -58,6 +60,24 @@ header > nav > a {
 header > nav > a:hover {
     background-color: red;
     transition: background-color .3s;
+}
+
+
+/* BANNER PRINCIPAL */
+
+.banner-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    height: 45vh;
+    width: 100vw;
+
+}
+
+.banner-principal p {
+    text-align: center;
 }
 
 
