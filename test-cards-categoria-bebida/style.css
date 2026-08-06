@@ -11,14 +11,15 @@ body {
     background-color: #ffe1dd;
 }
 
-.card-produtos {
+.sec-card-produtos {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    
     align-items: center;
 
     padding: 10px;
     color: white;
+
 }
 
 .art-prod-card {
@@ -27,15 +28,16 @@ body {
 
     background-color: rgb(201, 83, 29);
     border-radius: 25px;
+    flex: 1 1 200px;
 
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
-    
+    margin: 10px;
 }
 
 .img-prod-card img {
     display: block;
     width: 140px;
-    height: 140px;
+    height: 160px;
     border-radius: 25px 0px 0px 25px;
 
     flex: 1 1 auto;
