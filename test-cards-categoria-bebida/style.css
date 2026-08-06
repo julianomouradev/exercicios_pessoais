@@ -38,9 +38,8 @@ header {
 
     background-color: rgb(201, 83, 29);
     border-radius: 25px;
-    flex: 1 1 200px;
-
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
+    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
     margin: 10px;
 }
 
@@ -75,7 +74,7 @@ header {
 
 .btn-prod-card {
     color: white;
-    padding: 5px 70px;
+    padding: 5px 50px;
     margin: 10px 0px;
 
     text-decoration: none;
