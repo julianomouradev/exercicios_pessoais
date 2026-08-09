@@ -56,7 +56,6 @@ section.login > h2 {
     font-size: 1.8em;
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid black;
 }
 
 .form {
@@ -65,7 +64,7 @@ section.login > h2 {
     align-content: center;
 }
 
-.form > input {
+.form > .div-inp-camp > input {
     display: block;
     width: 80%;
     margin: auto;
@@ -76,6 +75,11 @@ section.login > h2 {
 .form > input:hover {
     transition: .3s;
     background-color: lightgray;
+}
+
+.inputs-camp {
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 .btn-sub-res {
