@@ -83,12 +83,11 @@ nav a {
     display: block;
     width: 100%;
     height: 45vh;
+
+    background-image: url('../imagens/hero/1000180660.jpg');
+    background-size: cover;
 }
 
-.hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 
