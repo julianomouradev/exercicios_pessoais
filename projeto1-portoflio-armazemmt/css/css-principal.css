@@ -73,18 +73,19 @@ nav {
 }
 
 nav a {
-    color: #acabab;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 
 /* HERO */
 .img-hero {
-    height: 30vh;
+    height: 240px;
     width: 100%;
     background-image: url('../imagens/hero/Herodesktopcropped.jpg');
     background-size: cover;
 }
+
 
 
 
