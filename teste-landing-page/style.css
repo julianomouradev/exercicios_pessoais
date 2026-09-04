@@ -87,10 +87,13 @@ a:hover {
 }
 
 @media screen and (min-width: 400px) {
+   
+    h2 {
+        font-size: 1em;
+    }
     
     #container {
         grid-template: 100px 1fr 100px / 20px 1fr 20px;
-
     }
 
 }
