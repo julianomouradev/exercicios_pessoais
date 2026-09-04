@@ -86,3 +86,11 @@ a:hover {
     color: var(--texto-principal);
     padding: 8px;
 }
+
+@media screen and (max-width: 769px) {
+    
+    h2 {
+        font-size: 1em;
+    }
+
+}
