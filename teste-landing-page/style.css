@@ -63,6 +63,12 @@ h3 {
 
 strong {
     color: var(--destaque);
+    transition: color .3s;
+} 
+
+strong:hover {
+    text-decoration: underline;
+    color: var(--cta);
 }
 
 p {
